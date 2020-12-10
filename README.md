@@ -1,1 +1,1 @@
-# demo-vue-phone-studying
+# demo-vue-phone-study
