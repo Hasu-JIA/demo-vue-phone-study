@@ -1,0 +1,20 @@
+[1119/162706.493:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
+[1120/235751.247:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
+[1121/041513.021:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.043:ERROR:exception_snapshot_win.cc(99)] thread ID 26008 not found in process
+[1121/041513.038:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.043:ERROR:exception_snapshot_win.cc(99)] thread ID 35156 not found in process
+[1121/041513.043:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.043:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.030:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.044:ERROR:exception_snapshot_win.cc(99)] thread ID 34396 not found in process
+[1121/041513.044:ERROR:exception_snapshot_win.cc(99)] thread ID 33208 not found in process
+[1121/041513.044:ERROR:exception_snapshot_win.cc(99)] thread ID 28288 not found in process
+[1121/041513.048:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.048:ERROR:exception_snapshot_win.cc(99)] thread ID 34716 not found in process
+[1121/041513.059:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.059:ERROR:exception_snapshot_win.cc(99)] thread ID 27912 not found in process
+[1121/041513.062:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.062:ERROR:exception_snapshot_win.cc(99)] thread ID 2532 not found in process
+[1121/041513.072:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1121/041513.073:ERROR:exception_snapshot_win.cc(99)] thread ID 37364 not found in process

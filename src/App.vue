@@ -1,28 +1,62 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--實現路由動畫-----需要緩存的-->
+    <transition name="fadeIn">
+      <keep-alive>
+        <router-view v-if="$route.meta.keepAlive"></router-view>
+      </keep-alive>
+    </transition>
+
+    <!--正常訪問的-->
+    <transition name="fadeIn">
+      <router-view v-if="!$route.meta.keepAlive"></router-view>
+    </transition>
+    <Tab></Tab>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Tab from "./base/Tab";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Tab,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  -webkit-appearance: none;
+}
+.content {
+  position: fixed;
+  width: 100%;
+  top: 40px;
+  bottom: 50px;
+  overflow: auto;
+}
+.fadeIn-enter{
+  opacity: 0;
+}
+.fadeIn-enter-active{
+  transition: all 0.3s linear;
+}
+.fadeIn-leave-active{
+  transition: all 0.3s linear;
+  opacity: 0;
 }
 </style>

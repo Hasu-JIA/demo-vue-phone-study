@@ -1,0 +1,31 @@
+[
+  {
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/41qzgSLFQwL._SX395_BO1,204,203,200_.jpg",
+    "bookName": "Vue.js入門 基礎から実践アプリケーション開発まで",
+    "bookInfo": "Vue.jsを初歩から実践まで徹底的に解説。使いやすくかつ、。...",
+    "bookPrice": 19.99,
+    "bookId": 1
+  },
+  {
+    "bookCover": "https://images-fe.ssl-images-amazon.com/images/I/81KMZ8IzKSL._AC_UL160_.jpg",
+    "bookName": "基礎から学ぶ Vue.js (日本語) 単行本",
+    "bookInfo": "フロントエンドを取り巻く技術の発展によって、フロントエンドの役割は増え....",
+    "bookPrice": 29.99,
+    "bookId": 2
+  },
+  {
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/514wGTjRziL._SX390_BO1,204,203,200_.jpg",
+    "bookName": "これからはじめるVue.js実践入門 (日本語) 単行本",
+    "bookInfo": "いま学んでおきたいJavaScriptフレームワーク「Vue.js」のエッセンスを一冊に詰め込みました!...",
+    "bookPrice": 39.99,
+    "bookId": 3
+  },
+  {
+    "bookCover": "https://m.media-amazon.com/images/I/51eFKoSgx5L.jpg",
+    "bookName": "Vue.js&Nuxt.js超入門",
+    "bookInfo": "いま、Web開発の現場では「サーバ側の処理をするバックエンドよりも...",
+    "bookPrice": 19.99,
+    "bookId": 4
+  },
+ 
+]
