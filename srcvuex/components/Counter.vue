@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div>
     計數器；<button @click="minus">-</button>
     <br />
