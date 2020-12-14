@@ -21,3 +21,5 @@ npm install
 # develop
 npm run dev
 ```
+## demo
+<img src="https://github.com/Hasu-JIA/demo-vue-phone-study/blob/master/src/assets/list.gif?raw=true" width="365" height="619"/>
