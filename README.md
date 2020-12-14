@@ -5,6 +5,8 @@
 
 > 開発環境：win10 Chrome 87 nodejs v14.15.0
 
+> 本プロジェクトはスマホ向けです。
+
 ## Starting
 ```bash
 # clone the project
