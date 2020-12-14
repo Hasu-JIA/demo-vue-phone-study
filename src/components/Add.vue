@@ -1,26 +1,26 @@
 <template>
   <div class="add">
-    <MHeader :back="true">add</MHeader>
+    <MHeader :back="true">追加</MHeader>
     <div class="content">
       <ul>
         <li>
-          <label for="bookName">書的名字</label>
+          <label for="bookName">本の名前</label>
           <input type="text" v-model="book.bookName" id="bookName" />
         </li>
         <li>
-          <label for="bookInfo">書的信息</label>
+          <label for="bookInfo">本の内容</label>
           <input type="text" v-model="book.bookInfo" id="bookInfo" />
         </li>
         <li>
-          <label for="bookPrice">書的價格</label>
+          <label for="bookPrice">税込価格</label>
           <input type="text" v-model.number="book.bookPrice" id="bookPrice" />
         </li>
         <li>
-          <label for="bookPrice">書的封面</label>
+          <label for="bookPrice">ブックカバー</label>
           <input type="text" v-model.number="book.bookCover" id="bookCover" />
         </li>
         <li>
-          <button @click="add">確認添加</button>
+          <button @click="add">追加</button>
         </li>
       </ul>
     </div>

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <MHeader>首頁</MHeader>
+    <MHeader>ホーム</MHeader>
     <div class="content">
-      <div v-if="loading">加載中。。。</div>
+      <div v-if="loading">読込み中．．．</div>
       <template v-else>
         <Swiper :data="sliders"></Swiper>
         <div class="container">
-          <h3>熱門圖書</h3>
+          <h3>新刊・話題書</h3>
           <ul class="book">
             <li v-for="(hot, key) in hotBooks" :key="key">
               <img :src="hot.bookCover" />

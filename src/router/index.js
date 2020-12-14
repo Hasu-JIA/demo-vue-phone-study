@@ -1,4 +1,4 @@
-import Vue from 'vue';//runtime 不支持template 只支持render
+import Vue from 'vue';//runtime 不支持template 只支持render 
 // import Home from '../components/Home.vue';
 // import Add from '../components/Add.vue';
 // import List from '../components/List.vue';

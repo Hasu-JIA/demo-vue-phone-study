@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MHeader :back="true">collect</MHeader>
+    <MHeader :back="true">カート</MHeader>
   </div>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MHeader :back="true">list</MHeader>
+    <MHeader :back="true">書籍一覧</MHeader>
     <div class="content" ref="scroll" @scroll="loadMore">
       <ul>
         <router-link
@@ -16,12 +16,12 @@
             <b>${{ book.bookPrice }}</b>
             <div class="btn-list">
               <button @click.stop="remove(book.bookId)">削除</button>
-              <button @click.stop>添加</button>
+              <button @click.stop>カート入れ</button>
             </div>
           </div>
         </router-link>
       </ul>
-      <div @click="more" class="more">加載更多</div>
+      <div @click="more" class="more">もっと見る</div>
     </div>
   </div>
 </template>
@@ -160,7 +160,7 @@ export default {
     }
       button {
       display: block;
-      width: 50px;
+      width: 80px;
       height: 30px;
       background: rgb(241, 85, 12);
       color: white;

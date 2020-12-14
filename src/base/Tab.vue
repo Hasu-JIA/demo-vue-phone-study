@@ -1,16 +1,16 @@
 <template>
   <div class="footer">
     <router-link to="/home"
-      ><i class="icon-home"></i><span>home</span></router-link
+      ><i class="icon-home"></i><span>ホーム</span></router-link
     >
     <router-link to="/add">
-      <i class="icon-home"></i><span>add</span></router-link
+      <i class="icon-home"></i><span>追加</span></router-link
     >
     <router-link to="/list"
-      ><i class="icon-home"></i><span>list</span></router-link
+      ><i class="icon-home"></i><span>リスト</span></router-link
     >
     <router-link to="/collect"
-      ><i class="icon-home"></i><span>collect</span></router-link
+      ><i class="icon-home"></i><span>カート</span></router-link
     >
   </div>
 </template>
