@@ -5,6 +5,8 @@
 
 > 開発環境：win10 Chrome 87 nodejs v14.15.0
 
+> 本プロジェクトはスマホ向けです。
+
 ## Starting
 ```bash
 # clone the project
@@ -19,3 +21,5 @@ npm install
 # develop
 npm run dev
 ```
+## demo
+<img src="https://github.com/Hasu-JIA/demo-vue-phone-study/blob/master/src/assets/list.gif?raw=true" width="365" height="619"/>
