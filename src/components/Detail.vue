@@ -1,6 +1,6 @@
 <template>
   <div class="detail">
-    <MHeader :back="true">詳情</MHeader>
+    <MHeader :back="true">詳細</MHeader>
     <div>
       <ul>
         <li>

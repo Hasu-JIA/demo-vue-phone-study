@@ -16,29 +16,29 @@ let router = new VueRouter({
     {
       path: '/home',
       component: ()=>import('../components/Home.vue'),
-      meta: { keepAlive: true ,title:'首頁'}
+      meta: { keepAlive: true ,title:'ホーム'}
     },
     {
       path: '/add',
       component: ()=>import('../components/Add.vue'),
-      meta: { title:'添加'}
+      meta: { title:'追加'}
     },
     {
       path: '/list',
       component: ()=>import('../components/List.vue'),
-      meta: { title:'列表'}
+      meta: { title:'リスト'}
     },
     {
       path: '/collect',
       component:()=>import('../components/Collect.vue'),
-      meta: { title:'收藏'}
+      meta: { title:'カート'}
     },
     // /detail/1 {bid:1} 路徑參數 必須有但是可以隨機
     {
       path: '/detail:bid',
       component:()=>import('../components/Detail.vue'),
       name: 'detail',
-      meta: { title:'詳情'}
+      meta: { title:'詳細'}
     },
     {
       path: '*',

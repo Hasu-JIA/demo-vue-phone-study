@@ -4,13 +4,13 @@
       ><i class="icon-home"></i><span>ホーム</span></router-link
     >
     <router-link to="/add">
-      <i class="icon-home"></i><span>追加</span></router-link
+      <i class="icon-folder-plus"></i><span>追加</span></router-link
     >
     <router-link to="/list"
-      ><i class="icon-home"></i><span>リスト</span></router-link
+      ><i class="icon-list"></i><span>リスト</span></router-link
     >
     <router-link to="/collect"
-      ><i class="icon-home"></i><span>カート</span></router-link
+      ><i class="icon-cart"></i><span>カート</span></router-link
     >
   </div>
 </template>
@@ -23,7 +23,13 @@ export default {
 .icon-home:before {
   content: "\e900";
 }
-.icon-list2:before {
+.icon-folder-plus:before {
+  content: "\e931";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-list:before {
   content: "\e9bb";
 }
 .footer {

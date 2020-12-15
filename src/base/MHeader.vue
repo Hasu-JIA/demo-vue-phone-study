@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <slot></slot>
-        <i class="icon-home" v-if="back" @click="goBack"></i>
+        <i class="icon-undo2" v-if="back" @click="goBack"></i>
     </div>
 </template>
 <script>
@@ -20,6 +20,9 @@ export default {
 }
 </script>
 <style  scoped lang="less">
+.icon-undo2:before {
+  content: "\e967";
+}
     .header{
         position: fixed;
         top: 0; 
